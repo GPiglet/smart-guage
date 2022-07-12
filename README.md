@@ -6,11 +6,12 @@ smart guage based on Angular
 <h3>Selector</h3>
 
 ``` bash
-<app-smartguage [params]="params1">
+<app-smartguage [params]="params">
 </app-smartguage>
 ```
 
 <h3>Parameters</h3>
+
 ``` bash
 export interface Params {
   min: number;
@@ -24,6 +25,7 @@ export interface Params {
 ```
 
 <h3>Default Parameters</h3>
+
 ``` bash
 width: 60px;
 height: 54px;
